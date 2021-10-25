@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Event"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Start": {
+      "type": "datetime"
+    },
+    "End": {
+      "type": "datetime"
+    },
+    "session": {
+      "via": "event",
+      "model": "session"
+    }
+  }
+}
