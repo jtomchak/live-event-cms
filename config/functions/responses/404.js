@@ -2,7 +2,7 @@
 
 module.exports = async ({ request, response }) => {
   console.log(request);
-  if (request.url === "/loaderio-f1e146938aa192280c8acfdadeb827b55/") {
+  if (request.url === "/loaderio-f1e146938aa192280c8acfdadeb827b5/") {
     return (response.status = 200);
   }
   return response.notFound("Nope");
