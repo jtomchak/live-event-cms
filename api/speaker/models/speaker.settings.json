@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "speakers",
+  "info": {
+    "name": "Speaker"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Bio": {
+      "type": "richtext"
+    }
+  }
+}

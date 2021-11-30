@@ -72,6 +72,9 @@
       },
       "type": "string",
       "required": true
+    },
+    "speakers": {
+      "collection": "speaker"
     }
   }
 }

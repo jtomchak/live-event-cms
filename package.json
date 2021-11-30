@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "description": "Live Event CMS",
   "scripts": {
-    "develop": "strapi develop",
+    "dev": "strapi develop",
+    "local:storage": "docker-compose up -d",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
@@ -22,6 +23,7 @@
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-bookshelf": "3.6.8",
+    "strapi-middleware-cache": "^2.1.5",
     "strapi-plugin-content-manager": "3.6.8",
     "strapi-plugin-content-type-builder": "3.6.8",
     "strapi-plugin-email": "3.6.8",
